@@ -1,0 +1,53 @@
+version: "3.9"
+
+services:
+  product-db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: product_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "Qhawe&Khanyisa_"
+    ports:
+      - "5432:5432"
+    volumes:
+      - product_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ministore-net
+
+  product-service:
+    build: ./product-service
+    ports:
+      - "7081:7081"
+    environment:
+      DB_HOST: product_db
+      DB_USER: postgres
+      DB_PASS: "Qhawe&Khanyisa_"
+    depends_on:
+      product-db:
+        condition: service_healthy
+    networks:
+      - ministore-net
+
+  api-gatway:
+    build: ./api-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      PRODUCT_SERVICE_URL: http://product-service:7081
+    depends_on:
+      - product-service
+    networks:
+      - ministore-net
+
+
+volumes:
+  product_db_data:
+
+networks:
+  ministore-net:
+    driver: bridge
