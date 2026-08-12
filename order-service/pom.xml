@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.minishop</groupId>
+    <groupId>com.anele</groupId>
     <artifactId>order-service</artifactId>
     <version>1.0.0</version>
     <name>order-service</name>
