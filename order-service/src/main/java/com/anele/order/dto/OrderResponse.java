@@ -1,4 +1,4 @@
-package com.minishop.order.dto;
+package com.anele.order.dto;
 
 import com.minishop.order.model.Order;
 import com.minishop.order.model.OrderStatus;

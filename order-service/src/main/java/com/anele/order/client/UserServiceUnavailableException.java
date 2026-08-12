@@ -1,4 +1,4 @@
-package com.minishop.order.client;
+package com.anele.order.client;
 
 public class UserServiceUnavailableException extends RuntimeException {
     public UserServiceUnavailableException(String message) {

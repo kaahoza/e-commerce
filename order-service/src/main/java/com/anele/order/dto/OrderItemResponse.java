@@ -1,4 +1,4 @@
-package com.minishop.order.dto;
+package com.anele.order.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

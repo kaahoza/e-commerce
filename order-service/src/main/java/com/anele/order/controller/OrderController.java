@@ -1,8 +1,8 @@
-package com.minishop.order.controller;
+package com.anele.order.controller;
 
-import com.minishop.order.dto.OrderRequest;
-import com.minishop.order.dto.OrderResponse;
-import com.minishop.order.service.OrderService;
+import com.anele.order.dto.OrderRequest;
+import com.anele.order.dto.OrderResponse;
+import com.anele.order.service.OrderService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

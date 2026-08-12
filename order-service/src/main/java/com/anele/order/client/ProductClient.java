@@ -1,4 +1,4 @@
-package com.minishop.order.client;
+package com.anele.order.client;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;

@@ -1,4 +1,4 @@
-package com.minishop.order.config;
+package com.anele.order.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.minishop.order.client;
+package com.anele.order.client;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
