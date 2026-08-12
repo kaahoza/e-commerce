@@ -1,11 +1,11 @@
 package com.anele.user.service;
 
-import com.minishop.user.dto.AuthResponse;
-import com.minishop.user.dto.LoginRequest;
-import com.minishop.user.exception.InvalidCredentialsException;
-import com.minishop.user.model.User;
-import com.minishop.user.repository.UserRepository;
-import com.minishop.user.security.JwtUtil;
+import com.anele.user.dto.AuthResponse;
+import com.anele.user.dto.LoginRequest;
+import com.anele.user.exception.InvalidCredentialsException;
+import com.anele.user.model.User;
+import com.anele.user.repository.UserRepository;
+import com.anele.user.security.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

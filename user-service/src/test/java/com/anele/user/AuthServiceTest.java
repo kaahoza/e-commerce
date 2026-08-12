@@ -1,12 +1,12 @@
-package com.minishop.user;
+package com.anele.user;
 
-import com.minishop.user.dto.AuthResponse;
-import com.minishop.user.dto.LoginRequest;
-import com.minishop.user.exception.InvalidCredentialsException;
-import com.minishop.user.model.User;
-import com.minishop.user.repository.UserRepository;
-import com.minishop.user.security.JwtUtil;
-import com.minishop.user.service.AuthService;
+import com.anele.user.dto.AuthResponse;
+import com.anele.user.dto.LoginRequest;
+import com.anele.user.exception.InvalidCredentialsException;
+import com.anele.user.model.User;
+import com.anele.user.repository.UserRepository;
+import com.anele.user.security.JwtUtil;
+import com.anele.user.service.AuthService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

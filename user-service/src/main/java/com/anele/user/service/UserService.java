@@ -1,11 +1,11 @@
 package com.anele.user.service;
 
-import com.minishop.user.dto.RegisterRequest;
-import com.minishop.user.dto.UserResponse;
-import com.minishop.user.exception.ResourceNotFoundException;
-import com.minishop.user.exception.UserAlreadyExistsException;
-import com.minishop.user.model.User;
-import com.minishop.user.repository.UserRepository;
+import com.anele.user.dto.RegisterRequest;
+import com.anele.user.dto.UserResponse;
+import com.anele.user.exception.ResourceNotFoundException;
+import com.anele.user.exception.UserAlreadyExistsException;
+import com.anele.user.model.User;
+import com.anele.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

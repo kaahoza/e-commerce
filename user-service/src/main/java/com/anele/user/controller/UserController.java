@@ -1,7 +1,7 @@
 package com.anele.user.controller;
 
-import com.minishop.user.dto.UserResponse;
-import com.minishop.user.service.UserService;
+import com.anele.user.dto.UserResponse;
+import com.anele.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

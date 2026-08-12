@@ -1,6 +1,6 @@
 package com.anele.user.dto;
 
-import com.minishop.user.model.User;
+import com.anele.user.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
